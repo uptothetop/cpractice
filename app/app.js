@@ -27,7 +27,6 @@ const init = () => {
     const num = counter.chain[i][1];
     renderer.appendBlock(opr, num);
   }
-  console.log(counter.chain, counter.value);
 }
 
 const checkAnswer = () => {
