@@ -6,3 +6,8 @@
 .block {
   flex-direction: row;
 }
+
+#check {
+  width: 100%;
+  margin-top: 10px;
+}
