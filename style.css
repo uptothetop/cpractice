@@ -1,0 +1,8 @@
+.container, .count, .block {
+  display: flex;
+  flex-direction: column;
+}
+
+.block {
+  flex-direction: row;
+}
