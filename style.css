@@ -1,4 +1,4 @@
-.container, .count, .block {
+.count, .block {
   display: flex;
   flex-direction: column;
 }
