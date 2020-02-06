@@ -6,7 +6,7 @@ const renderer = new Renderer('.count');
 
 const answerEl = document.getElementById('answer');
 const buttonEl = document.getElementById('check');
-
+const resetEl = document.getElementsByClassName('reset');
 
 
 /** App initialization, will be run on the first time */
@@ -41,4 +41,5 @@ const checkAnswer = () => {
 }
 
 buttonEl.addEventListener('click', checkAnswer);
+// resetEl.addEventListener('click', init);
 init();
