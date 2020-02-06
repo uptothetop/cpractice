@@ -58,6 +58,13 @@ export class Counter {
         number = this.rnd(this.min, max);
       }
     }
+    
+    if (operand === 2) {
+      while (this.value - number < 0) {
+        number = this.rnd(this.min, max);
+      }
+    }
+
     this.calcChain(operand, number);
   }
 
